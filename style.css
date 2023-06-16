@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(142, 137, 137);
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+ header .nav-bar{ 
+    display: flex;
+}
+.nav-bar .amazon-logo img{
+    margin-top: 3px;
+    margin-left: 10px;
+    width: 95px;
+    height: 35px;
+}
+ header .nav-bar .all-nav-items{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: 5px 20px;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding:5px;
+}
+header .nav-bar .all-nav-items .search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 19px;
+    width:100%;
+}
+.search-box input{
+    margin-top: 5px;
+    width: 50%;
+    margin-bottom: 8px;
+    border: 1px solid #f1a10d;
+}
+header .nav-bar .all-nav-items .btn{
+    margin-top: 5px;
+    width: 15px;
+    height: 20px;
+    background-color:rgb(29, 218, 48);
+    border: 1px solid #f1a10d;
+    margin-bottom: 8px;
+}
+.cart{
+    display:flex;
+}
+.cart svg{
+    color:beige;
+    width: 30px;
+    height: 30px;
+    margin-right:5px;
+}
+.cart p{
+    color: beige ;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+   /* section-1 css  */
+   .section-1{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    gap:10px;
+    background: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/Aug/Apay/GW-PC-Deals-Unrec-3000._CB629506848_.jpg');
+    background-size: cover;
+   }
+   .first-col{
+    width:35%;
+    height:35vh;
+    background-color: white;
+    margin:10px 10px;
+    margin-top:300px;
+    padding:5px;
+    
+   }
+   .first-col img{
+    margin:5px 50px;
+
+   }
+   .first-col h3{
+    font-size: 18px;
+   }
+   .first-col #btn{
+    background-color: #f1a10d;
+    color: black;
+    margin-left:30px;
+    width:100px;
+
+    height:50px;
+    margin-top:50px;
+    border-radius: 10px;
+   }
+   /* section-2css */
+   .section-2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.section-2 .section-2-container h3 {
+    margin-bottom: 10px;
+}
+.section-2 .section-2-container .product-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.section-2 .section-2-container .product-card {
+    display: inline-block;
+    width: 300px !important;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .section-2-container .product-card img {
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+}
+/* SECTION 3 .........................................*/
+.section-3 {
+    background-color: white;
+}
+.section-3 .section-3-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+.section-3 .section-3-container .product-detail-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card {
+    display: inline-block;
+    width: 200px !important;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-detail-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card img {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    max-height: 140px;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px; ;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card a:hover {
+    color: #c45500;
+}
+.section-3 .section-3-container .product-detail-cards .product-detail-card .product-deliver-by {
+    color: #222;
+    font-size: 10px;
+}
